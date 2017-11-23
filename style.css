@@ -1,0 +1,32 @@
+html {
+    margin: 0;
+    border: 1px solid black;
+}
+body {
+    margin: 0;
+    border: 1px solid blue;
+}
+#canvas {
+    display: block;
+    background: red;
+}
+button #eraser {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+button #painting {
+    position: fixed;
+    left 20px bottom: 0;
+}
+
+.actions #brush {
+    display: none;
+}
+
+.actions.x>#brush {
+    display: inline-block;
+}
+.actions.x>#eraser {
+    display: none;
+}
